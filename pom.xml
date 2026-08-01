@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+    <modelVersion>4.0.0</modelVersion>  
+    <groupId>com.vodafone.engineering</groupId>  
+    <artifactId>apifactory-demo2-service</artifactId>  
+    <name>apifactory-demo2-service</name>  
+    <version>0.1.0-SNAPSHOT</version>  
+    <description>a demo service used to test connectivity</description>  
+    <packaging>jar</packaging>  
+    <parent> 
+        <groupId>apifactory.vodafone</groupId>  
+        <artifactId>apifactory-rest-bom</artifactId>  
+        <version>0.9.0-SNAPSHOT</version> 
+    </parent>  
+    <properties> 
+        <java.version>17</java.version>  
+        <spring.boot.mainClass>com.vodafone.engineering.ApifactoryDemo2ServiceApplication</spring.boot.mainClass> 
+    </properties>  
+    <dependencies> 
+        <dependency> 
+            <groupId>com.vodafone</groupId>  
+            <artifactId>apifactory-client-security</artifactId>  
+            <version>0.6.0-SNAPSHOT</version> 
+        </dependency>  
+        <dependency> 
+            <groupId>com.vodafone</groupId>  
+            <artifactId>apifactory-cache</artifactId>  
+            <version>0.4.0-SNAPSHOT</version> 
+        </dependency> 
+    </dependencies>  
+    <repositories> 
+        <repository> 
+            <id>apifactory-parent-feed</id>  
+            <url>https://pkgs.dev.azure.com/VFCloudEngineering/4bb2efc9-0f25-4d65-9b72-ebf54d327e40/_packaging/apifactory-parent-feed/maven/v1</url>  
+            <releases> 
+                <enabled>true</enabled> 
+            </releases>  
+            <snapshots> 
+                <enabled>true</enabled> 
+            </snapshots> 
+        </repository>  
+        <repository> 
+            <id>apifactory-cache</id>  
+            <url>https://pkgs.dev.azure.com/VFCloudEngineering/4bb2efc9-0f25-4d65-9b72-ebf54d327e40/_packaging/apifactory-cache/maven/v1</url>  
+            <releases> 
+                <enabled>true</enabled> 
+            </releases>  
+            <snapshots> 
+                <enabled>true</enabled> 
+            </snapshots> 
+        </repository>  
+        <repository> 
+            <id>apifactory-client-security</id>  
+            <url>https://pkgs.dev.azure.com/VFCloudEngineering/4bb2efc9-0f25-4d65-9b72-ebf54d327e40/_packaging/apifactory-client-security/maven/v1</url>  
+            <releases> 
+                <enabled>true</enabled> 
+            </releases>  
+            <snapshots> 
+                <enabled>true</enabled> 
+            </snapshots> 
+        </repository> 
+    </repositories> 
+</project>
