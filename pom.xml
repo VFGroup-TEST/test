@@ -5,7 +5,7 @@
     <groupId>com.vodafone.engineering</groupId>  
     <artifactId>apifactory-demo2-service</artifactId>  
     <name>apifactory-demo2-service</name>  
-    <version>0.1.1-SNAPSHOT</version>  
+    <version>0.2.1-SNAPSHOT</version>  
     <description>a demo service used to test connectivity</description>  
     <packaging>jar</packaging>  
     <parent> 
